@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Simple Calculator</title>
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <main class="calculator">
+            <section class="display">
+                <input class="display__text" type="text" value="0" readonly>
+            </section>
+
+            <section class="buttons">
+                <div class="buttons__group">
+                    <button class="button btn-eliminar btn-c">C</button>
+                    <button class="button btn-eliminar btn-del">del</button>
+                    <button class="button btn-operation sqrt">&radic;</button>
+                    <button class="button btn-operation div">&divide;</button>
+                </div>
+
+                <div class="buttons__group">
+                    <button class="button btn-number btn-7 7">7</button>
+                    <button class="button btn-number btn-8 8">8</button>
+                    <button class="button btn-number btn-9 9">9</button>
+                    <button class="button btn-operation mult">&times;</button>
+                </div>
+
+                <div class="buttons__group">
+                    <button class="button btn-number btn-4 4">4</button>
+                    <button class="button btn-number btn-5 5">5</button>
+                    <button class="button btn-number btn-6 6">6</button>
+                    <button class="button btn-operation minus">&minus;</button>
+                </div>
+
+                <div class="buttons__group">
+                    <button class="button btn-number btn-1 1">1</button>
+                    <button class="button btn-number btn-2 2">2</button>
+                    <button class="button btn-number btn-3 3">3</button>
+                    <button class="button btn-operation plus">&plus;</button>
+                </div>
+                
+                <div class="buttons__group">
+                    <button class="button btn-number btn-0 0">0</button>
+                    <button class="button btn-number btn-point .">.</button>
+                    <button class="button btn-operation equals">&equals;</button>
+                </div>
+            </section>
+        </main>
+
+        <script src="js/app.js"></script>
+    </body>
+</html>
